@@ -20,7 +20,3 @@ jobs:
           SLACK_BOT_TOKEN: ${{ vars.SLACK_BOT_TOKEN }}
           CHANNEL_ID: ${{ vars.CHANNEL_ID }}
         run: python check_messages.py
-import os
-
-SLACK_BOT_TOKEN = os.environ.get("SLACK_BOT_TOKEN")
-CHANNEL_ID = os.environ.get("CHANNEL_ID")
