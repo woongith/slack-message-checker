@@ -1,2 +1,0 @@
-# slack-message-checker
-checker
